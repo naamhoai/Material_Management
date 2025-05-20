@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/FileCss/Css.css">
 
 
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 
@@ -14,17 +15,14 @@
 </head>
 
 <body>
-
+<img src="FileCss/pexels-ekaterinabelinskaya-4744755.jpg" alt="Logo" class="logoe">
 <div class="shawdow">
     <div class="company-box">
-        <img src="FileCss/pexels-ekaterinabelinskaya-4744755.jpg" alt="Logo" class="logoe">
+
         <h1 class="company-name">ABC Technologies</h1>
-        <p class="slogan">Empowering Your Future</p>
 
 
-        <img src="FileCss/pexels-edward-jenner-4249687.jpg" class="decor decor1" alt="">
-        <img src="FileCss/pexels-karolina-grabowska-7285929.jpg" class="decor decor2" alt="">
-        <img src="FileCss/pexels-shvetsa-4312841.jpg" class="decor decor3" alt="">
+
     </div>
 
 </div>
@@ -32,10 +30,10 @@
 
 <div class="content">
     <div class="content-item">
-        <p><a href="#">Home</a></p>
-        <p><a href="#">Catergory </a> </p>
-        <p><a href="#">Product</a> </p>
-        <p><a href="#">Supplier</a> </p>
+        <p><a href="#"></a></p>
+        <p><a href="#"></a> </p>
+        <p><a href="#"></a> </p>
+        <p><a href="#"></a> </p>
 
     </div>
 </div>
@@ -48,13 +46,14 @@
 
 <div class="wrapper">
     <div class="met">
-        <%if (request.getAttribute("mess") != null) {%>
-       <b><p style="color: red" > <%=request.getAttribute("mess") %> </p></b>
+        <% if(request.getAttribute("mess")!=null) {%>
 
+        <b style="color: red"><%= request.getAttribute("mess") %></b>
         <%}%>
     </div>
 
     <form action="Html" method="post">
+
 
         <div class="input-box">
             <i class="fas fa-user"></i>
@@ -66,7 +65,7 @@
 
         </div>
         <div class="remember-foegot">
-
+            <h> <input type="checkbox" name="checkbox"/>Remember me.   </h>
         </div>
         <button type="submit" class="btn">Login</button>
         <div class="register">

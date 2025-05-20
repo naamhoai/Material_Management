@@ -6,10 +6,11 @@
     font-family: 'Times New Roman', Times, serif;
 }
 body{
-    /* display: flex; */
+
     background: url("pexels-apasaric-325185.jpg") center center fixed;
     height: 100%;
     align-items: center;
+
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -24,7 +25,7 @@ body{
     width: 420px;
     color: rgb(255, 250, 240);
     padding: 30px 40px ;
-    margin: 200px 0px 0px 710px;
+    margin: 194px 0px 0px 596px;
 }
 .wrapper input-box{
     width: 80%;
@@ -157,10 +158,10 @@ body{
 }
 .shawdow{
     position: absolute;
-    top: 54px;
-    width: 490px;
-    height: 570px;
-    left: 100px;
+    top: 113px;
+    width: 488px;
+    height: 434px;
+    left: 561px;
     border-radius: 20px;
     background-color: rgba(105, 171, 241, 0.3);
 }
@@ -168,24 +169,31 @@ body{
 
 
 .logoe {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: #3189e0 solid 1px ;
+    border-radius: 5px;
     width: 60px;
-    height: 60px;
-    object-fit: contain;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    border-radius: 8px;
+    height: auto;
+
+
 }
 
 .company-name {
     font-size: 28px;
-    margin: 10px 0;
+    margin-top: 20px;
+    margin-left: 130px;
     color: #080a67;
+
 }
 
 .slogan {
     font-size: 16px;
     opacity: 0.9;
-    margin-bottom: 20px;
+
+
+    margin-left: 50px;
     color: #1c0e8a;
 }
 
@@ -200,18 +208,5 @@ body{
 
 }
 
-.decor1 {
-    top: 40px;
-    right: 30px;
-}
 
-.decor2 {
-    bottom: 50px;
-    left: 80px;
-}
-
-.decor3 {
-    top: 210px;
-    right: 90px;
-}
 
