@@ -10,10 +10,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39dddbc7-7383-4d7d-8dd9-a0d1288b3b50" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/settinglist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/FileJSP/pexels-cottonbro-7484811.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/SettingList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jakarta.servlet.jsp.jstl-2.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jakarta.servlet.jsp.jstl-api-2.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/FileCss/Css.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/FileCss/Css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Html.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dal/JDBCconnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/JDBCconnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dal/conection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/conection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Accounts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/FileCss/Company-Facts-Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/FileCss/Css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/FileCss/customer-support-1714.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/FileJSP/customer-support-1714.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/FileCss/pexels-apasaric-325185.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/FileCss/pexels-edward-jenner-4249687.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/FileCss/pexels-ekaterinabelinskaya-4744755.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/FileCss/pexels-karolina-grabowska-7285929.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/FileCss/pexels-shvetsa-4312841.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Hom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Home.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +72,9 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2xHD2IZkcoSRJnWe6Sp4JJtcgnL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -68,7 +89,7 @@
     "Tomcat Server.Tomcat 10.1.34.executor": "Run",
     "git-widget-placeholder": "feature/kien",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/kien3/Desktop/New folder/Material_Management-111111",
+    "last_opened_file_path": "C:/Users/kien3/Desktop/SWP391/Material_Management/src/main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -83,12 +104,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kien3\Desktop\SWP391\Material_Management\src\main" />
       <recent name="C:\Users\kien3\Desktop\New folder\Material_Management-111111\src\main\webapp" />
       <recent name="C:\Users\kien3\Desktop\New folder\Material_Management-111111\src\main\java" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Tomcat 10.1.34" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.33" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Tomcat 10.1.34" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1." ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="Material_Management:war exploded">
@@ -203,6 +225,7 @@
       <workItem from="1747683252805" duration="64000" />
       <workItem from="1747710727419" duration="767000" />
       <workItem from="1747713041952" duration="2735000" />
+      <workItem from="1747932683485" duration="235000" />
     </task>
     <servers />
   </component>

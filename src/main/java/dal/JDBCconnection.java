@@ -8,7 +8,7 @@ public class JDBCconnection {
     public  Connection connection;
     public JDBCconnection()  {
         try {
-            String url = "jdbc:mysql://localhost:3306/quanlyvattu";
+            String url = "jdbc:mysql://localhost:3306/materialmanagement";
             String user = "root";
             String password = "1234";
             Class.forName("com.mysql.cj.jdbc.Driver");
